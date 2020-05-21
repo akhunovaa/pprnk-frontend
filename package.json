@@ -1,0 +1,62 @@
+{
+  "name": "botmasterzzz-pprnk-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@iconify/icons-fa-brands": "^1.0.11",
+    "@iconify/react": "^1.1.3",
+    "@material-ui/core": "^4.9.10",
+    "@stardust-ui/docs-components": "0.40.0",
+    "classnames": "^2.2.6",
+    "faker": "^4.1.0",
+    "history": "^4.9.0",
+    "lodash": "latest",
+    "prettier": "^1.19.1",
+    "prop-types": "latest",
+    "query-string": "^6.12.1",
+    "react": "^16.13.1",
+    "react-code-blocks": "0.0.7",
+    "react-copy-to-clipboard": "^5.0.2",
+    "react-dom": "^16.13.1",
+    "react-helmet": "^6.0.0",
+    "react-images-upload": "^1.2.8",
+    "react-recaptcha-google": "^1.1.1",
+    "react-router": "^5.0.0",
+    "react-router-dom": "^5.0.0",
+    "react-router-hash-link": "^1.2.2",
+    "react-s-alert": "^1.4.1",
+    "react-scripts": "^3.4.1",
+    "react-scroll-up-button": "^1.6.4",
+    "react-share": "^4.1.0",
+    "react-slick": "^0.25.2",
+    "react-snap": "^1.23.0",
+    "semantic-ui-react": "^0.88.2",
+    "slick-carousel": "^1.8.1",
+    "webpack": "4.42.0"
+  },
+  "scripts": {
+    "postbuild": "react-snap",
+    "start": "react-scripts start",
+    "build": "GENERATE_SOURCEMAP=false react-scripts build",
+    "test": "CI=true react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "generate-sw": "sw-precache --root=build --config scripts/sw-precache-config.js && uglifyjs build/service-worker.js -o build/service-worker.js"
+  },
+  "reactSnap": {
+    "minifyHtml": {
+      "sortClassName": false
+    },
+    "cacheAjaxRequests": true,
+    "puppeteerArgs": [
+      "--no-sandbox",
+      "--disable-setuid-sandbox"
+    ],
+    "puppeteerExecutablePath": "/usr/bin/google-chrome"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

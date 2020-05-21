@@ -1,0 +1,407 @@
+.profile-main{
+    height: auto;
+    min-height: 2550px;
+    background: #F2F2F2;
+    /*min-width: 1633px;*/
+    min-width: 1024px;
+    width: auto;
+}
+
+.container-breadcrumb{
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    /* Gray 3 */
+    color: #A5A5A5;
+}
+
+.ui.breadcrumb a {
+    color: #2F80ED;
+}
+
+.profile-main-container{
+    min-height: 2400px;
+    padding: 36px 33px 28px 31px;
+}
+
+.profile-form-container{
+    min-height: 2400px;
+    height: auto;
+    margin-top: 26px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07);
+}
+
+.profile-avatar-container{
+    padding-top: 72px;
+    padding-left: 252px;
+    /*padding-right: 444px;*/
+    display: inline-flex;
+}
+
+.profile-avatar {
+    display: block;
+    width: 124px;
+    height: 124px;
+    position: relative;
+    overflow: hidden;
+}
+
+/*.profile-avatar img{*/
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*width: 100%;*/
+    /*opacity: 0;*/
+/*}*/
+
+.profile-avatar-footer {
+    position: absolute;
+    text-align: center;
+    margin-top: 92px;
+    padding-right: 8px;
+    padding-left: 8px;
+
+    opacity: 0.5;
+    height: 32px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 188, 212, 0);
+    transition: background-color 0.5s;
+    overflow: hidden;
+}
+
+.profile-avatar-footer:hover {
+    background-color: #F2F2F2;
+    overflow: hidden;
+}
+
+.text-avatar {
+    width: 124px;
+    height: 124px;
+    margin: 0 auto;
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 48px;
+    border-radius: 50%;
+    color: white;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    background: #46b5e5;
+    background: linear-gradient(45deg,#46b5e5 1%,#1e88e5 64%,#40baf5 97%);
+    background-image: -ms-linear-gradient(45deg,#46b5e5 1%,#1e88e5 64%,#40baf5 97%);
+    background-image: -moz-linear-gradient(45deg,#46b5e5 1%,#1e88e5 64%,#40baf5 97%);
+    background-image: -o-linear-gradient(45deg,#46b5e5 1%,#1e88e5 64%,#40baf5 97%);
+    background-image: -webkit-linear-gradient(45deg,#46b5e5 1%,#1e88e5 64%,#40baf5 97%);
+
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.user-name-container{
+    margin-top: 32px;
+    padding-left: 32px;
+    height: 42px;
+    overflow: hidden;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    /* Gray 2 */
+    color: #4F4F4F;
+}
+.user-custom-icon-container{
+    padding-left: 18px;
+    margin-top: 42px;
+}
+
+.profile-info-container{
+    padding-top: 40px;
+    padding-left: 252px;
+    width: 1000px;
+}
+
+.profile-info-container-name{
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+
+    /* Gray 2 */
+    color: #4F4F4F;
+}
+
+.user-application-secret{
+    width: 97%;
+    position: fixed;
+    text-align: end;
+}
+
+.user-application-secret.ui.input>input {
+    font-family: var(--font-family);
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 14px !important;
+    line-height: 16px !important;
+    color: #4F4F4F !important;
+    text-align: end;
+    overflow: hidden;
+    padding-left: 25px;
+}
+
+.application-secret-copy{
+    font-size: 16px !important;
+    position: relative;
+    z-index: 999;
+    left: 31px;
+    color: #A5A5A5;
+}
+
+.application-secret-copy:hover{
+    color: #4F4F4F;
+}
+
+.secret-crud-ico{
+    font-size: 16px !important;
+    color: #A5A5A5;
+}
+
+.secret-crud-ico:hover{
+    color: #4F4F4F;
+}
+
+.user-application-secret-eye{
+    float: left;
+}
+
+.profile-info-container-name-inputs{
+    padding-top: 28px;
+    display: inline-flex;
+
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    /* Gray 3 */
+    color: #A5A5A5;
+}
+
+.messengers{
+    padding-top: 16px;
+}
+
+.form-input{
+    padding-top: 6px;
+}
+
+.phone-form-input{
+    width: 238px;
+    height: 38px;
+}
+
+.profile-info-container-name-input{
+    display: grid;
+    min-width: 250px;
+    padding-right: 12px;
+    width: 250px;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    /* Gray 3 */
+    color: #A5A5A5;
+}
+.profile-info-container-nickname-input{
+    padding-top: 20px;
+    width: 250px;
+    min-width: 250px;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    /* Gray 3 */
+    color: #A5A5A5;
+}
+.profile-info-container-date-birth-input{
+    padding-top: 20px;
+    width: 250px;
+    min-width: 250px;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    /* Gray 3 */
+    color: #A5A5A5;
+}
+.profile-info-container-sex-input{
+    padding-top: 20px;
+    width: 250px;
+    min-width: 250px;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    /* Gray 3 */
+    color: #A5A5A5;
+}
+.profile-info-container-input{
+    padding-top: 20px;
+    width: 250px;
+    min-width: 250px;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    /* Gray 3 */
+    color: #A5A5A5;
+}
+
+.profile-info-container-messengers{
+    padding-top: 28px;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: bold;
+    font-size:  14px;
+    line-height: 16px;
+
+    /* Gray 2 */
+    color: #4F4F4F;
+}
+
+.profile-info-container-messengers-button{
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    width: 124px;
+    height: 32px;
+    /* Gray 2 */
+    color: #4F4F4F;
+}
+
+.profile-messenger-portal{
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    width: 230px;
+    height: 166px;
+    /* Gray 2 */
+    color: #4F4F4F;
+    white-space: nowrap;
+}
+
+.messenger-list{
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    padding-left: 9px;
+}
+
+.ui.checkbox input:checked~.box:before,
+.ui.checkbox input:checked~label:before {
+    background-color: #2F80ED !important;
+}
+
+.ui.checkbox input:checked~.box:after, .ui.checkbox input:checked~label:after {
+    color:  #FFFFFF !important;
+}
+
+.prefer-callback{
+    padding-top: 16px;
+    display: inline-block;
+    height: 80px;
+    width: 250px;
+}
+
+.password{
+    padding-top: 0;
+    display: block;
+}
+
+.password-input{
+    padding-top: 24px;
+}
+
+.user-application-secret-add{
+    background: #2F80ED;
+}
+
+.user-application-secret-add.ui.primary.button{
+    background-color: #2F80ED;
+    color: #fff;
+    text-shadow: none;
+    background-image: none;
+}
+
+
+.profile-info-container-command-table{
+    padding-top: 24px;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.command-approve{
+    display: flex;
+}
+
+.command-approve-buttons-text{
+    font-family: var(--font-family) !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 14px !important;
+    line-height: 16px !important;
+    color: white;
+}
+
+.command-search-link {
+    padding-top: 32px;
+}
+
+.profile-info-buttons{
+    display: block;
+    padding: 16px 198px;
+    height: 64px;
+}
+
+.profile-password-hide{
+    display: none;
+}
+
+.command-apply-button{
+    /*vertical-align:middle;*/
+    overflow: hidden;
+    background-color: #2F80ED !important;
+    text-align: center;
+    /*padding-bottom: 7px;*/
+    /*padding-top: 7px;*/
+    padding: 0 0 !important;
+}

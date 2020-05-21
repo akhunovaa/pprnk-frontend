@@ -1,0 +1,115 @@
+.profile-administration-header{
+    height: 64px;
+    min-width: 1235px;
+    background-color: #2F80ED;
+    color: rgb(255, 255, 255);
+    width: auto;
+}
+
+
+.left-profile-administration-header-links{
+    float: left;
+    display: inline-flex;
+}
+
+.right-profile-administration-header-links{
+    float: right;
+    display: inline-flex;
+    height: 100%;
+}
+
+.header-navigation-link{
+    padding-right: 24px;
+    padding-left: 21px;
+    padding-top: 26px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    border-right: 1px solid #E0E0E0;
+    width: 154px;
+    min-width: 154px;
+    white-space: nowrap;
+
+}
+
+.lk-page-link{
+    padding-right: 24px;
+    padding-top: 26px;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 16px;
+    width: 200px;
+    min-width: 200px;
+    padding-left: 36px;
+    white-space: nowrap;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.admin-page-link{
+    padding-right: 32px;
+    padding-top: 26px;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    width: 170px;
+    min-width: 170px;
+    white-space: nowrap;
+}
+
+.api-page-link{
+    padding-right: 32px;
+    padding-top: 26px;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    width: 86px;
+    min-width: 86px;
+    white-space: nowrap;
+}
+
+.linked-api-page-link{
+    padding-right: 32px;
+    padding-top: 26px;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    width: 162px;
+    min-width: 162px;
+    white-space: nowrap;
+}
+
+.profile-administration-header-navlink{
+    padding: 24px 36px 24px 36px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    white-space: nowrap;
+    border-right: 1px solid #E0E0E0;
+}
+
+.profile-administration-header-language-navlink{
+    padding-top: 24px;
+    padding-left: 24px;
+    margin-right: 28px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    white-space: nowrap;
+    width: 59px;
+}
+
+.header-right-navlink-profile-administration{
+    padding-left: 11px;
+    text-align: center;
+    padding-top: 6px;
+}

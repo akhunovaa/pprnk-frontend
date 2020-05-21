@@ -1,0 +1,122 @@
+.detail-overview-body {
+    padding-top: 32px;
+    padding-left: 164px;
+    padding-right: 164px;
+    height: auto;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    /*position: relative;*/
+}
+
+h1.title {
+    font-weight: normal;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+body h1.title {
+    color: #2F80ED;
+}
+
+.api-edit-form{
+    width: 468px;
+}
+
+.detail-overview-api-name-input{
+    display: grid;
+    min-width: 250px;
+    padding-right: 12px;
+    padding-top: 12px;
+    /*width: 468px;*/
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    /* Gray 3 */
+    color: #A5A5A5;
+}
+
+.ui.form textarea {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #A5A5A5 !important;
+}
+
+.api-update-buttons{
+    /*display: block;*/
+    padding: 16px 0 0 0;
+    height: 64px;
+    /*width: 468px;*/
+}
+
+.api-project-avatar{
+    width: 75px;
+    height: 75px;
+    border: dotted 1px #2F80ED;
+    float: left;
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+.api-project-avatar-disabled{
+    cursor: no-drop;
+}
+
+.api-project-avatar-enabled{
+    cursor: pointer;
+}
+
+.api-project-avatar:hover{
+    width: 75px;
+    height: 75px;
+    border: dotted 2px #2F80ED;
+    float: left;
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+.api-text-avatar{
+    cursor: pointer;
+    width: 73px;
+    height: 73px;
+    margin: 0 auto;
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 25px;
+    border-radius: 50%;
+    color: white;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    background: #46b5e5;
+    background: linear-gradient(45deg,#46b5e5 1%,#1e88e5 64%,#40baf5 97%);
+    background-image: -ms-linear-gradient(45deg,#46b5e5 1%,#1e88e5 64%,#40baf5 97%);
+    background-image: -moz-linear-gradient(45deg,#46b5e5 1%,#1e88e5 64%,#40baf5 97%);
+    background-image: -o-linear-gradient(45deg,#46b5e5 1%,#1e88e5 64%,#40baf5 97%);
+    background-image: -webkit-linear-gradient(45deg,#46b5e5 1%,#1e88e5 64%,#40baf5 97%);
+}
+
+
+.api-image-upload-container{
+    width: 75px;
+    height: 75px;
+    /* Gray 6 */
+    background: #F2F2F2;
+    /* Gray 4 */
+    border: 1px dashed #D8D8D8;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.delete-button{
+    float: right;
+    text-align: right;
+    display: block;
+}

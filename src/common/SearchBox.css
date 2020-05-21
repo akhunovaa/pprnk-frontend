@@ -1,0 +1,131 @@
+.header-center-search-box{
+    font-family: var(--font-family) !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 14px !important;
+    line-height: 16px !important;
+}
+
+.header-center-search-input{
+    padding: 14px 20px 11px 20px;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    min-width: 300px;
+    width: 100%;
+}
+
+.header-center-search-box .ui.input {
+    position: relative;
+    font-weight: 400;
+    font-style: normal;
+    /* display: -webkit-inline-box; */
+    /*display: -ms-inline-flexbox;*/
+    /* display: block; */
+    color: rgba(0,0,0,.87);
+    width: 100%;
+}
+
+.header-center-search-box.ui.search>.results {
+    width: 100%;
+}
+
+.header-center-search-box.ui.input>input {
+    font-family: var(--font-family) !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 14px !important;
+    line-height: 16px !important;
+    color: #4F4F4F !important;
+    width: 100%;
+}
+
+.header-center-search-box.ui.search>.results>.message .header {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    /* Gray 3 */
+    color: #A5A5A5;
+}
+
+.header-center-search-box.ui.search>.results .result .image img {
+    float: right;
+    overflow: hidden;
+    background: 0 0;
+    width: 45px;
+    height: 45px;
+    border-radius: .25em;
+}
+
+.result-image {
+    float: right;
+    overflow: hidden;
+    background: 0 0;
+    width: 45px;
+    height: 45px;
+    border-radius: .25em;
+}
+
+.more-wide-search-input.ui.grid>[class*="ten wide"].column {
+    width: 700px;
+    -webkit-animation: fadeIn 0.5s;
+    animation: fadeIn 0.5s;
+    animation-fill-mode: forwards;
+    opacity: 1
+}
+
+.wide-search-input.ui.grid>[class*="ten wide"].column {
+    width: 300px;
+    -webkit-animation: fadeOutX 0.5s;
+    animation: fadeOutX 0.5s;
+    animation-fill-mode: backwards;
+}
+
+@-webkit-keyframes fadeIn {
+    0% { opacity: 1;}
+    50% { opacity: 0.5;}
+    100% { opacity: 0;}
+}
+@keyframes fadeOutX {
+    0% { opacity: 0;}
+    50% { opacity: 0.5;}
+    100% { opacity: 1;}
+}
+
+.ui.icon.input>i.icon:not(.link) {
+    pointer-events: none;
+    cursor: pointer;
+}
+.ui.search .prompt~.search.icon {
+    cursor: pointer;
+}
+
+.ui.input.input>input:focus~i.icon{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.ui.input.input>input:hover~i.icon{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.ui.icon.input>i.icon {
+    cursor: pointer;
+    position: absolute;
+    line-height: 1;
+    text-align: center;
+    top: 0;
+    right: 0;
+    margin: 0;
+    height: 100%;
+    width: 2.67142857em;
+    opacity: .5;
+    border-radius: 0 .28571429rem .28571429rem 0;
+    -webkit-transition: opacity .3s ease;
+    transition: opacity .3s ease;
+}

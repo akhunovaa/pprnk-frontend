@@ -1,0 +1,49 @@
+body{
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    min-width: 1024px;
+}
+
+.ui.form input{
+    color: #4F4F4F;
+}
+
+.ui.form input:hover{
+    /* Blue 1 */
+    border: 1px solid #2F80ED;
+    border-radius: 4px;
+}
+
+.ui.form input:active{
+    /* Blue 1 */
+    border: 1px solid #2F80ED !important;
+    border-radius: 4px;
+}
+
+.ui.form input:focus{
+    /* Blue 1 */
+    border: 1px solid #2F80ED !important;
+    border-radius: 4px;
+}
+
+.ui.form input:visited{
+    /* Blue 1 */
+    border: 1px solid #2F80ED !important;
+    border-radius: 4px;
+}
+.ui.form input:checked{
+    /* Blue 1 */
+    border: 1px solid #2F80ED !important;
+    border-radius: 4px;
+}
+
+/*.ui.input>input:required:focus:valid{*/
+    /*background: url("./img/check-solid.svg") no-repeat 95% 50% #219653;*/
+    /*background-size: 16px;*/
+/*}*/
+/*.ui.input>input:focus:invalid{*/
+    /*content: "\f00d";*/
+/*}*/

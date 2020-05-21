@@ -1,0 +1,22 @@
+.user-profile-main{
+    height: auto;
+    min-height: 1550px;
+    background: #F2F2F2;
+    /*min-width: 1633px;*/
+    min-width: 1024px;
+    width: auto;
+}
+
+
+.user-profile-form-container{
+    min-height: 1400px;
+    height: auto;
+    margin-top: 26px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07);
+}
+
+.user-profile-main-container {
+    min-height: 1400px;
+    padding: 36px 33px 28px 31px;
+}

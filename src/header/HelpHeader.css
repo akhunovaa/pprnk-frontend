@@ -1,0 +1,51 @@
+
+.help-header{
+    height: 64px;
+    min-width: 1235px;
+    background-color: var(--background-color);
+    color: rgb(255, 255, 255);
+    width: auto;
+}
+
+.left-help-header-links{
+    float: left;
+    height: 100%;
+    display: inline-flex;
+}
+
+
+.header-help-logo{
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    width: 107px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-help-sub{
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.help-header-navlink{
+    padding: 24px 36px 24px 36px;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    white-space: nowrap;
+}

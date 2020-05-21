@@ -1,0 +1,41 @@
+.command-toggle{
+    width: 268px;
+    padding-top: 32px;
+    padding-left: 32px;
+    padding-right: 28px;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.command-operation-text{
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #4F4F4F;
+}
+
+.command-operation-text:hover{
+    cursor: pointer;
+}
+
+.command-link-color{
+    color: #2F80ED !important;
+}
+
+.command-disabled-color{
+    color: #A5A5A5 !important;
+}
+
+.command-bold-font-weight{
+    font-weight: bold;
+}
+
+.sub-command{
+    padding-top: 16px;
+    padding-left: 25px;
+}

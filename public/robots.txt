@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+Sitemap: https://pprnk.yourapi.ru/sitemap.xml
+
+User-agent: Googlebot
+Allow: /
+Sitemap: https://pprnk.yourapi.ru/sitemap.xml
+
+User-agent: Yandex
+Allow: /
+Sitemap: https://pprnk.yourapi.ru/sitemap.xml
+
+User-agent: Twitterbot
+Allow: /
+Sitemap: https://pprnk.yourapi.ru/sitemap.xml
+
+Host: pprnk.yourapi.ru

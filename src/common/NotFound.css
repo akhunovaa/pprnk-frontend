@@ -1,0 +1,146 @@
+.page-not-found {
+    min-height: 1100px;
+    height: auto;
+    min-width: 1366px;
+    width: auto;
+    background: url('../img/404.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.page-not-found-title {
+    position: absolute;
+    width: 249px;
+    height: 169px;
+    left: 900px;
+    top: 361px;
+
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 144px;
+    line-height: 169px;
+    /* identical to box height */
+
+    /* Yellow */
+    color: #F2C94C;
+}
+
+.page-not-found-title-2 {
+
+    position: absolute;
+    width: 249px;
+    height: 169px;
+    left: 892px;
+    top: 365px;
+
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 144px;
+    line-height: 169px;
+    /* identical to box height */
+
+    /* Orange */
+    color: #F39847;
+}
+
+.page-not-found-title-back {
+    position: absolute;
+    width: 249px;
+    height: 169px;
+    left: 900px;
+    top: 365px;
+
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 144px;
+    line-height: 169px;
+    /* identical to box height */
+
+    /* Orange */
+    color: #F39847;
+}
+
+.page-not-found-desc {
+    /* #<h3> Заголовок третьего уровня */
+
+    position: absolute;
+    width: 257px;
+    height: 59px;
+    left: 900px;
+    top: 534px;
+
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: right;
+
+    /* white */
+    color: #FFFFFF;
+}
+
+.page-not-found-go-back{
+    /* #button-accent */
+
+    position: absolute;
+    width: 158px;
+    height: 32px;
+    left: 990px;
+    top: 617px;
+
+}
+
+.page-not-found-go-back-btn {
+    /* #button-accent */
+
+
+    position: absolute;
+    width: 158px;
+    height: 32px;
+    left: 990px;
+    top: 617px;
+    padding: 8px 24px;
+    text-align: center;
+}
+
+.go-back-404-text-button{
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    height: 100%;
+    /* white */
+    color: #FFFFFF;
+    white-space: nowrap;
+}
+
+/*.go-back-btn:hover {*/
+    /*min-width: 160px;*/
+    /*background-color: #8cd87b;*/
+    /*border-color: #b6e6aa;*/
+    /*color: #5c6a57;*/
+    /*font-size: 15px;*/
+    /*font-weight: 400;*/
+/*}*/
+
+/*.go-back-btn:focus {*/
+    /*min-width: 160px;*/
+    /*background-color: #8cd87b;*/
+    /*border-color: #b6e6aa;*/
+    /*color: #5c6a57;*/
+    /*font-size: 15px;*/
+    /*font-weight: 400;*/
+/*}*/

@@ -1,0 +1,178 @@
+#login-container{
+    width: auto;
+    /*min-width: 1366px;*/
+    height: 100%;
+    min-height: 1000px;
+    display: flex;
+    /*margin-top: 80px;*/
+    /*margin-left: 40px;*/
+    /*margin-right: 40px;*/
+}
+
+#login-container-left{
+    width: 70%;
+    min-width: 800px;
+    float: left;
+    background: url('../img/img.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#login-container-right{
+    width: 30%;
+    float: right;
+    height: 100%;
+}
+
+#login-container-right-header{
+    min-width: 488px;
+    height: 66px;
+    min-height: 66px;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+#login-container-right-header h3{
+    color: #2F80ED;
+}
+
+.submit-button{
+    background: #2F80ED !important;
+    color: white !important;
+    font-family: var(--font-family) !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-size: 14px !important;
+    line-height: 16px !important;
+}
+
+.signup-container-right-form{
+    min-width: 488px;
+    padding-top: 64px;
+}
+.signup-container-right-footer{
+    margin-top: 56px;
+    height: 256px;
+    min-height: 256px;
+    width: 100%;
+    min-width: 488px;
+    /*padding: 88px 185px 118px 186px;*/
+    display: inline-block;
+}
+
+.login-right-header{
+    padding: 24px 399px 24px 32px !important;
+}
+
+.login-data-segment-form{
+    font-family: var(--font-family) !important;
+    border: none !important;
+    -webkit-box-shadow: none !important;
+}
+
+
+.footer-icon-group{
+    /*margin-top: 18px;*/
+    /*display: inline-block;*/
+    /*text-align: center;*/
+    /*width: 100%;*/
+}
+
+.footer-icon-group i:hover{
+    color: #2F80ED !important;
+}
+
+.navigate-links{
+
+    /*padding-top: 64px;*/
+    /*padding-left: 120px;*/
+    /*height: 52px;*/
+}
+
+
+.footer-icon-group-label{
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+}
+
+.login-nav-link-left-login{
+    font-family: var(--font-family);
+    width: 124px;
+    float: left;
+    height: 52px;
+    min-height: 52px;
+    text-align: center;
+    padding-top: 12px;
+    cursor: pointer;
+}
+
+.login-nav-link-left-login:hover{
+    width: 124px;
+    float: left;
+    height: 100%;
+    min-height: 52px;
+    text-align: center;
+    padding-top: 12px;
+    background-color: #E0E0E0;
+    cursor: pointer;
+}
+
+.signup-nav-link-right-1{
+    font-family: var(--font-family);
+    width: 124px;
+    float: right;
+    height: 100%;
+    min-height: 52px;
+    text-align: center;
+    border-bottom: 2px solid #2F80ED;
+    padding-top: 12px;
+    cursor: pointer;
+}
+
+.license-agreement{
+    width: 100%;
+    height: 52px;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    word-wrap: break-word;
+}
+
+
+.battle-net-auth-icon{
+    margin-right: 20px;
+    color: #A5A5A5;
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.battle-net-auth-icon:hover{
+    margin-right: 20px;
+    color: #2F80EC;
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.signup-grid-form{
+    padding-left: 80px !important;
+    padding-right: 80px !important;
+}
+
+.signup-wide-grid-form{
+    padding-left: 0;
+    padding-right: 0;
+}
+
