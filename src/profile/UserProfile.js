@@ -217,7 +217,7 @@ class UserProfile extends Component {
             siteName: 'yourapi.ru',
             description: user.info ? user.info.substring(0, 160) : "YourAPI | " + surname + ' ' + name + ' ' + patrName,
             url: "https://yourapi.ru/profile/id" + id,
-            image: imageUrl ? imageUrl : "https://yourapi.ru/img/yourapi_img.jpg",
+            image: imageUrl ? imageUrl : "https://pprnk.yourapi.ru/img/header.jpg",
             site: "@yourapi_ru",
             domain: "yourapi.ru",
             card: "summary"

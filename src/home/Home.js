@@ -108,7 +108,7 @@ class Home extends Component {
             siteName: 'pprnk.yourapi.ru',
             description: "ППРНК | Перспективная платформа развития навыков коммуникаций",
             url: "https://pprnk.yourapi.ru/",
-            image: "https://yourapi.ru/img/header.jpg",
+            image: "https://pprnk.yourapi.ru/img/header.jpg",
             site: "@yourapi_ru",
             card: "summary",
             domain: "pprnk.yourapi.ru"

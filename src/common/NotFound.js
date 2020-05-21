@@ -18,7 +18,7 @@ class NotFound extends Component {
             siteName: 'yourapi.ru',
             description: "Marketplace IT решений. Find here your own IT decision! Your Marketplace. Artificial. Programmable. Intelligence.",
             url: "https://yourapi.ru/",
-            image: "https://yourapi.ru/img/yourapi_img.jpg",
+            image: "https://pprnk.yourapi.ru/img/header.jpg",
             site: "@yourapi_ru",
             domain: "yourapi.ru",
             card: "summary"
