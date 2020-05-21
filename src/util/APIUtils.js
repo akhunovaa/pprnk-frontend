@@ -347,7 +347,7 @@ export function apiProjectFullListGet() {
     // prevalidateTokenState();
     const apiBaseUrl = process.env.NODE_ENV !== 'production' ? 'https://dev.yourapi.ru' : API_BASE_URL;
     return request({
-        url: apiBaseUrl + "/api-data/full",
+        url: "https://yourapi.ru/api-data/full",
         method: 'GET'
     });
 }
@@ -356,7 +356,7 @@ export function apiFullListGet() {
     // prevalidateTokenState();
     const apiBaseUrl = process.env.NODE_ENV   !== 'production' ? 'https://dev.yourapi.ru' : API_BASE_URL;
     return request({
-        url: apiBaseUrl + "/api-data/shop/filter",
+        url: "https://yourapi.ru/api-data/shop/filter",
         method: 'GET'
     });
 }
@@ -365,7 +365,7 @@ export function apiFullCriteriaListGet(criteria) {
     //prevalidateTokenState();
     const apiBaseUrl = process.env.NODE_ENV   !== 'production' ? 'https://dev.yourapi.ru' : API_BASE_URL;
     return request({
-        url: apiBaseUrl + "/api-data/shop/filter?category=" + criteria,
+        url: "https://yourapi.ru/api-data/shop/filter?category=" + criteria,
         method: 'GET'
     });
 }
